@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
+<link href="contact-style.css" rel="stylesheet">
+</head>
+<body id="contact">
+  
+  <!-- header始まり -->
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="images/logo.jpg" alt="logo" width="100px" height="100px"></a>
+    </div>
+    <nav>
+      <ul class="global-nav">
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- header終わり -->
+  
+  <!-- wrap始まり -->
+  <div id="wrap">
+    <div class="content">
+      <div class="main-center">
+        <h1>Contact</h1>
+        <p>愛知工業大学へのアクセス方法、お問い合わせ、作品制作のご依頼フォームのページです。お気軽にお問い合わせください。</p>
+        <section class="access clearfix">
+          <h2 class="icon">Access</h2>
+          <table>
+            <tr>
+              <th>所在地住所</th>
+              <td>〒470-0392 愛知県豊田市八草町八千草1247</td>
+            </tr>
+            <tr>
+              <th>電話番号</th>
+              <td>0565-48-8121</td>
+            </tr>
+            <tr>
+              <th>電車でのアクセス</th>
+              <td>愛知環状鉄道・リニモ「八草」駅より徒歩10分</td>
+            </tr>
+            <tr>
+              <th>お車でのアクセス</th>
+              <td>八草東I.Cより一般道経由で5分</td>
+            </tr>
+          </table>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.9253856102473!2d137.11304189999998!3d35.1834122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003670e1ea9d925%3A0x4b91fbaa2287b243!2z5oSb55-l5bel5qWt5aSn5a2m!5e0!3m2!1sja!2sjp!4v1656305243777!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section>
+          <h2 class="icon">Contact form</h2>
+          <div class="form">
+            <form>
+              <dl>
+                <dt><span class="required">お名前</span></dt>
+                <dd><input type="text" name="name" class="name" required></dd>
+                <dt><span class="required">メールアドレス</span></dt>
+                <dd><input type="email" name="email" class="email" required></dd>
+                <dt>お電話番号</dt>
+                <dd><input type="tel" name="tel" class="tel"></dd>
+                <dt>お問い合せ種別</dt>
+                <dd>
+                  <select name="type" class="type">
+                    <option value="CG作品の制作">CG作品制作</option>
+                    <option value="画像処理">映像作品制作</option>
+                    <option value="その他お問い合わせ">その他お問い合わせ</option>
+                  </select>
+                </dd>
+                <dt>ご希望のご連絡方法</dt>
+                <dd>
+                  <input type="radio" name="contact" value="Eメール">Eメール
+                  <input type="radio" name="contact" value="お電話">お電話
+                </dd>
+                <dt>メッセージ</dt>
+                <dd><textarea name="message" class="message"></textarea></dd>
+              </dl>
+              <button type="submit">送信</button>
+            </form>
+            <div class="attention">
+              <p>※ 「<span class="required"></span>」の付いている項目は必須項目です。<br>※メッセージ送信後、48時間以内に担当者よりご連絡いたします。</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!-- wrap終わり -->
+  
+  <!-- footer始まり -->
+  <footer>
+    <small>(C)2022 Rena-studio.</small>
+  </footer>
+  <!-- footer終わり -->
+  
+</body>
+</html>
