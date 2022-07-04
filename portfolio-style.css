@@ -142,7 +142,7 @@ footer small {
 }
 
 #index {
-  background-image: url(../images/bg-index.jpg);
+  background-image: url(images/bg-index.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -150,7 +150,7 @@ footer small {
 }
 
 #about {
-  background-image: url(../images/bg-about.jpg);
+  background-image: url(images/bg-about.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
