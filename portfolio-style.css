@@ -227,7 +227,7 @@ table {
 }
 
 #portfolio {
-  background-image: url(../images/bg-portfolio.jpg);
+  background-image: url(images/bg-portfolio.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -265,7 +265,7 @@ a img:hover {
 }
 
 #CG-Production {
-  background-image: url(../images/bg-CG-Product.jpg);
+  background-image: url(images/bg-CG-Product.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -283,7 +283,7 @@ a img:hover {
 }
 
 #video {
-  background-image: url(../images/bg-video.jpg);
+  background-image: url(images/bg-video.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -291,7 +291,7 @@ a img:hover {
 }
 
 #contact {
-  background-image: url(../images/bg-contact.jpg);
+  background-image: url(images/bg-contact.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -445,7 +445,7 @@ a img:hover {
   }
   
   #portfolio {
-    background-image: url(../images/bg-portfolio-sp.jpg);
+    background-image: url(images/bg-portfolio-sp.jpg);
   }
   
   .sidebar {
